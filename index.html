@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    #check:checked~ul {
+        left: 0;
+    }
+</style>
+
+<body>
+    <nav class="bg-slate-600 h-20 w-full fixed">
+        <label class="text-white leading-[80px] md:leading-[80px] pl-12 md:pl-24 md:text-4xl text-3xl">TANN</label>
+        <input type="checkbox" id="check" hidden>
+        <label for="check" class="float-right text-white text-3xl leading-[80px] mr-10 lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="float-right mr-10 lg:flex leading-[80px]  space-x-4 text-white uppercase rounded fixed lg:relative h-[100vh] lg:h-0 w-[100%] lg:w-fit top-20 lg:top-0 left-[-100%]
+            lg:left-0 transition-all duration-300 lg:transition-none text-center bg-slate-700">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">members directory</a></li>
+            <li><a href="#">tims</a></li>
+            <li><a href="#">resources</a></li>
+            <li><a href="#">media</a></li>
+        </ul>
+    </nav>
+    <div class="">
+        <img class="w-[100%] h-[300px] lg:h-[700px]" src="search-cover.jpg">
+        <div class="-mt-44 items-center justify-center gap-4 mx-20 lg:mx-[550px] lg:-mt-96 md:mx-[400px] md:-mt-44">
+            <div class="items-center justify-center lg:pl-16 mx-6">
+            <h1 class="text-white font-bold text-xl lg:text-4xl">Welcome to TANN</h1>
+            <h1 class="text-white font-bold text-sm lg:text-2xl ">Breathing Taking Adventure</h1>
+        </div>
+            <div class="items-center justify-center">
+            <button class="bg-white text-black border-2 rounded-2xl px-20 py-2 w-fit mt-2 lg:px-52 font-bold">Enquire</button>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
